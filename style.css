@@ -42,6 +42,7 @@ button{
     border: none;
     background-color: blueviolet;
     color: white;
+    cursor: pointer;
 }
 button:nth-child(1){
     border-radius: 10px 0 0 0;
@@ -101,4 +102,6 @@ li{
 }
 button:hover:not(.selectedButton){
     background-color: rgb(246, 56, 223);
+    transition: 0.4s linear;
+
 }
